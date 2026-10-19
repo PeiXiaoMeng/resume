@@ -9,23 +9,23 @@ version: 2
 name: 裴梦槐
 title: 互联网、 全栈工程师、 .Net、 Java、 前端
 email: xiame27@163.com
-website: www.github.com/sproogen/resume-theme
+website: https://peixiaomeng.github.io/myproject
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+# twitter_username: facespics
+# github_username:  sproogen
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+# instagram_username: jameswgrant
+# linkedin_username: jameswgrant
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
@@ -45,12 +45,18 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+# about_title: 个人信息
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  姓名： 裴梦槐
+  性别： 男
+  年龄： 33
+  籍贯： 山西临汾
+  目前城市： 北京
+  目前状态： 在职
+  手机号： 15718863170
+  微信号： 15718863170
+  工作年限： 9年
 
 content:
   - title: Projects # Title for the section
