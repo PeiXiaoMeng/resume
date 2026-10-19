@@ -49,17 +49,25 @@ additional_links:
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   姓名： 裴梦槐
+
   性别： 男
+  
   年龄： 33
+  
   籍贯： 山西临汾
+  
   目前城市： 北京
+  
   目前状态： 在职
+  
   手机号： 15718863170
+  
   微信号： 15718863170
+  
   工作年限： 9年
 
 content:
-  - title: Projects # Title for the section
+  - title: 项目简介 # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
