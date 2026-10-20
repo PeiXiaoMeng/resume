@@ -98,6 +98,29 @@ content:
           - 使用sql server、redis进行数据库以及缓存处理
           - 通过JWT Bearer、 Policy 授权进行用户认证，身份识别等
           - 通过神策、hive大数据平台快速查询定位线上问题，并给出业务侧反馈等
+
+      - layout: top-middle
+        title: 海外小说项目
+        # link: 
+        # link_text: Project Website
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: 
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          前端： Next.js、React、Vue3、TypeScript、**Tailwind CSS、Radix UI**、Adyen、Clerk
+          服务端： nodejs、 mysql、 redis等
+        description: | # this will include new lines to allow paragraphs 
+          - 主导整体架构设计与研发推进，负责任务拆解、排期与风险把控
+          - 设计并落地管理后台组件体系，基于 **Tailwind CSS + Radix UI** 封装高复用组件能力
+          - 主导海外支付链路接入（Adyen）与账号体系接入（Clerk），完成关键流程联调与稳定性保障
+          - 针对生态早期问题，推动自研 C++ SDK 适配业务能力
+          - 服务端使用nodejs轻量化快速接入
+          - 基于rbac的用户权限设计等
+          - 整合体验、交互等前后端工作，并对代码、流程进行整体把控。
           
 
   - title: Experience # Title for the section
@@ -165,7 +188,7 @@ content:
       - 9年的web多端工程化经验，具备从0到1搭建能力与团队技术管理能力；
       - 长期负责核心业务架构、公共能力沉淀、性能优化及研发流程治理；
       - 擅长web、 H5、 小程序、 快应用、 鸿蒙、 App等场景；
-      - 能够在负载业务中平衡交付效率、代码质量与可维护性；
+      - 能够在复杂业务中平衡交付效率、代码质量与可维护性；
       - 认真负责、 品质优良、 虚心待人、 遵守纪律；
 
 # Footer
