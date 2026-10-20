@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: 裴梦槐
-title: 互联网、 全栈工程师、 .Net、 Java、 前端
+title: 互联网、 全栈工程师、 .Net、 Java、 资深前端
 email: xiame27@163.com
 website: https://peixiaomeng.github.io/myproject
 
@@ -54,7 +54,7 @@ about_content: | # this will include new lines to allow paragraphs
   
   年龄： 33
   
-  籍贯： 山西临汾
+  籍贯： 山西省临汾市
 
   学历： 统招本科
 
@@ -76,7 +76,7 @@ content:
     content:
       - layout: top-middle
         title: 繁花剧场项目
-        link: 
+        # link: 
         # link_text: Project Website
         additional_links:
           - title:  sproogen/modern-resume-theme
@@ -87,43 +87,17 @@ content:
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
           前端： 快应用、 鸿蒙App
-          服务端： Java spring boot
+          服务端： ASP.NET Core 10
         description: | # this will include new lines to allow paragraphs
-          123123
-
-      - layout: top-middle
-        title: 智慧投放项目
-        link: 
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: 
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          前端： 快应用、 鸿蒙App
-          服务端： Java spring boot
-        description: | # this will include new lines to allow paragraphs
-          123123
-
-      - layout: top-middle
-        title: E考官项目
-        link: 
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: 
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          前端： 快应用、 鸿蒙App
-          服务端： .Net 
-        description: | # this will include new lines to allow paragraphs
-          123123
+          - 前端主程 / 架构搭建者  
+          - ArkTS、C++、本地存储、日志系统、埋点体系
+          - 搭建项目分层结构（Page / Components / Model / Service）
+          - 封装通用能力模块：HTTP、Prompt、埋点、日志、异常定位工具
+          - 针对生态早期问题，推动自研 C++ SDK 适配业务能力
+          - 服务端使用EF Core 10 搭建orm，操作数据库等
+          - 使用sql server、redis进行数据库以及缓存处理
+          - 通过JWT Bearer、 Policy 授权进行用户认证，身份识别等
+          - 通过神策、hive大数据平台快速查询定位线上问题，并给出业务侧反馈等
           
 
   - title: Experience # Title for the section
@@ -138,7 +112,7 @@ content:
         quote: >
           
         description: | # this will include new lines to allow paragraphs
-            全栈开发、 资深前端开发
+            全栈开发工程师（C#）、 资深前端开发
 
       - layout: left
         title: 北京高济医疗
@@ -149,18 +123,18 @@ content:
         quote: >
           
         description: | # this will include new lines to allow paragraphs
-            全栈开发、 资深前端开发
+            全栈开发工程师(Java、 Nodejs)、 资深前端开发
 
       - layout: left
         title: 北京马上游科技
-        link: boringcompany.com
+        link: 
         # link_text: boringcompany.com
         sub_title: 
         caption: 2019.09 - 2020.08
         quote: >
           
         description: | # this will include new lines to allow paragraphs
-            全栈开发、 资深前端开发
+            全栈工程师
 
       - layout: left
         title: 北京弘成教育
@@ -171,7 +145,7 @@ content:
         quote: >
           
         description: | # this will include new lines to allow paragraphs
-            全栈开发、 资深前端开发
+            全栈开发工程师
 
   - title: 教育 # Title for the section
     layout: list # Type of content section (list/text)
