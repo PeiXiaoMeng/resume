@@ -7,9 +7,9 @@ version: 2
 
 # Personal info
 name: 裴梦槐
-title: 互联网、 全栈工程师、 .Net、 Java、 资深前端
+title: 互联网、 全栈工程师、 NodeJs、 Java、 资深前端
 email: xiame27@163.com
-website: https://peixiaomeng.github.io/myproject
+website: 
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -75,7 +75,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: 繁花剧场项目
+        title: 短剧app项目
         # link: 
         # link_text: Project Website
         additional_links:
@@ -86,18 +86,20 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          前端： 快应用、 鸿蒙App
-          服务端： ASP.NET Core 10
+          前端： 快应用、 鸿蒙App、 Vue3 + typeScript + tailwindCss
+          服务端： NodeJs、 NestJs、 Prisma ORM、 Mysql、 Redis
         description: | # this will include new lines to allow paragraphs
-          - 前端主程 / 架构搭建者  
-          - ArkTS、C++、本地存储、日志系统、埋点体系
-          - 搭建项目分层结构（Page / Components / Model / Service）
-          - 封装通用能力模块：HTTP、Prompt、埋点、日志、异常定位工具
-          - 针对生态早期问题，推动自研 C++ SDK 适配业务能力
-          - 服务端使用EF Core 10 搭建orm，操作数据库等
-          - 使用sql server、redis进行数据库以及缓存处理
-          - 通过JWT Bearer、 Policy 授权进行用户认证，身份识别等
-          - 通过神策、hive大数据平台快速查询定位线上问题，并给出业务侧反馈等
+          - 前端职责：
+          - 担任项目前端主程与架构搭建者，基于ArkTS、C++原生能力深度打通跨端体验，主导设计并落地标准化项目分层结构，清晰划分Page、Components、Model、Service四层职责，实现页面层、组件层、数据层与服务层的完全解耦，保障大型项目的可维护性与团队协作效率；
+          - 主导封装全链路通用能力模块：统一HTTP请求拦截与响应处理、全局Prompt弹窗体系、用户行为埋点上报、全链路日志采集、从底层统一项目基础能力规范，大幅减少重复代码编写，降低线上问题排查成本；
+          - 针对鸿蒙生态早期能力缺口，主导推动自研C++ SDK适配核心业务能力，补齐原生侧计算、存储与性能短板，解决跨端场景下原生能力不足、体验不一致的痛点，保障核心业务在新平台上的稳定落地；
+          - 
+          - 服务端职责：
+          - 基于NestJS企业级Node.js框架搭建后端整体架构，深度集成Prisma ORM实现类型安全的数据库操作，统一封装数据库迁移、数据校验与查询能力，规范团队数据库开发流程，大幅降低手写SQL带来的语法错误与维护成本。
+          - 主导完成基于RBAC的用户权限体系设计，实现角色、权限、资源的管控，支持多角色动态分配、接口级权限校验，保障不同层级用户的访问安全，适配平台后台、C端用户、运营端等多角色场景需求。
+          - 基于MySQL与Redis搭建数据库与缓存双层架构：完成MySQL库表设计，同时利用Redis承载热点数据缓存；
+          - 对接神策、Hive大数据平台，建立线上问题快速定位链路：通过日志行为、大数据表SQL查询能力，快速定位线上故障根因。
+
 
       - layout: top-middle
         title: 海外小说项目
@@ -112,15 +114,36 @@ content:
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
           前端： Next.js、React、Vue3、TypeScript、**Tailwind CSS、Radix UI**、Adyen、Clerk
-          服务端： nodejs、 mysql、 redis等
+          服务端： Java、 SpringBoot、 mysql、 redis等
         description: | # this will include new lines to allow paragraphs 
-          - 主导整体架构设计与研发推进，负责任务拆解、排期与风险把控
-          - 设计并落地管理后台组件体系，基于 **Tailwind CSS + Radix UI** 封装高复用组件能力
-          - 主导海外支付链路接入（Adyen）与账号体系接入（Clerk），完成关键流程联调与稳定性保障
-          - 针对生态早期问题，推动自研 C++ SDK 适配业务能力
-          - 服务端使用nodejs轻量化快速接入
-          - 基于rbac的用户权限设计等
-          - 整合体验、交互等前后端工作，并对代码、流程进行整体把控。
+          - 前端职责： 
+          - 作为整体架构设计者推进项目全周期研发，负责任务拆解、里程碑排期与技术风险把控，对齐产品、设计与研发团队，保障项目在预定周期内高质量交付上线；
+          - 基于 Next.js + TypeScript + Tailwind CSS + Radix UI 设计并落地管理后台高复用组件体系，封装表单控件、数据表格、弹窗、按钮、导航布局等通用业务组件，统一设计语言与交互规范；
+          - 深度主导海外支付链路Adyen与全球化账号体系Clerk的前端接入：完成支付页面全流程交互设计，同时打通Clerk的注册、登录、多因素认证、第三方账号关联等全链路能力，适配海外不同地区用户的账号使用习惯，保障关键流程的交互流畅度与合规性；
+          - 整合全链路体验与交互设计，统一前端工程规范、代码提交规范与联调流程，优化首屏加载速度、精细化路由懒加载与资源拆分，大幅提升海外用户的访问体验；
+          
+          - 服务端职责：
+          - 基于 Java + Spring Boot 主导后端整体架构搭建，落地分层业务架构、统一接口规范、全局异常处理与跨域安全机制，为前端提供稳定、易维护的RESTful接口服务，支撑管理后台与C端业务的全链路调用。
+          - 主导MySQL库表整体，设计合理的字段与关联关系，避免冗余数据等；
+          - 主导Adyen支付链路与Clerk账号体系的服务端对接：完成支付下单、Webhook回调验签，同时实现Clerk用户信息同步、JWT Token校验、RBAC权限模型设计，保障支付与账号两大核心链路的安全性、稳定性与数据一致性。
+
+      - layout: top-middle
+        title: AIGC生成式视频图片项目
+        # link: 
+        # link_text: Project Website
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: 
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Vue3、 typescript、 vue-flow、 Pinia、 Axios封装、 自研组件库等
+        description: | # this will include new lines to allow paragraphs 
+          - 可视化编排引擎搭建基于 Vue3 + TypeScript 深度封装 vue-flow 画布能力，设计并实现支持拖拽连线、节点配置、分支条件判断的AIGC生成工作流编排系统。将文生图、视频生成、等能力抽象为独立可复用节点，运营同学可自由组合生产流水线，大幅降低业务复杂性；
+          - 自研AIGC业务组件库建设主导沉淀一套面向生成式场景的自研组件库，覆盖业务输入框、图片预览框、视频预览播放器、历史生成卡片、模型切换面板等15+高频业务组件。组件内置参数合法性校验、历史提示词联想、生成进度实时展示等能力，统一项目交互体验与视觉风格；
+          - 文生图核心模块落地对接可灵、千文、即梦等多类文生图大模型，在前端实现提示词分层输入、风格预设选择、分辨率与生成步数可视化调节、多图并行生成、生成结果局部重绘等完整流程。
           
 
   - title: Experience # Title for the section
@@ -157,7 +180,7 @@ content:
         quote: >
           
         description: | # this will include new lines to allow paragraphs
-            前端工程师
+            全栈开发工程师
 
       - layout: left
         title: 北京弘成教育
@@ -168,7 +191,7 @@ content:
         quote: >
           
         description: | # this will include new lines to allow paragraphs
-            前端开发工程师
+            全栈开发工程师
 
   - title: 教育 # Title for the section
     layout: list # Type of content section (list/text)
@@ -185,7 +208,7 @@ content:
   - title: 我的优势
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - 9年的web多端工程化经验，具备从0到1搭建能力与团队技术管理能力；
+      - 9年的全栈工程化经验，具备从0到1搭建能力与团队技术管理能力；
       - 长期负责核心业务架构、公共能力沉淀、性能优化及研发流程治理；
       - 擅长web、 H5、 小程序、 快应用、 鸿蒙、 App等场景；
       - 能够在复杂业务中平衡交付效率、代码质量与可维护性；
